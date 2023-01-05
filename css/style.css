@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+:root{
+    --main-bg-color: #2874f0;
+}
+/*Above root is predefined in css as and used to make color as a global variable*/
+
+*{  
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+}
+
+/*use of calc to calculate height of the container by subtracting the height of the header and footer from the total height*/
+

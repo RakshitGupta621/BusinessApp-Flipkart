@@ -1,0 +1,132 @@
+@media screen and (max-width: 876px){
+    .slider{
+        height: 30vh;
+        width: 80vw;
+    }
+
+    .logo{
+        justify-content: center;
+        margin: 12px 0;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul{
+        height: 58px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    
+
+    nav ul{
+        justify-content: center;
+    }
+
+    .card-item img{
+        width: 140px;
+    }
+
+    .search{
+        justify-content: center;  
+    }
+
+    .search input{
+        margin: 12px 16px;
+    }
+
+    nav ul{
+        height: 34px;
+    }
+    
+}
+
+
+@media screen and (max-width: 360px) and (min-height: 640px){   
+     
+    .slider{
+        height: 25vh;
+        width: 70vw;
+    }
+
+    .items{
+        justify-content: start;
+        display: flex;
+        flex-direction: row;
+        padding: 0%;
+        align-items: center;    
+    }
+
+    .item{
+        align-items: center;
+        padding: 5px;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+    }
+    
+    .items img{
+        border-radius: 50%;
+        width: 10vw;
+        padding: 0 14px;
+    }    
+
+    .items h4:hover{
+        color: var(--main-bg-color);
+        cursor:pointer;
+    }
+
+    .items h4{
+        font-size: 2vh;
+    }
+
+    .card-item img{
+        width: 50px;
+    }
+
+    .search{
+        justify-content: center;  
+    }
+
+    .search input{
+        margin: 12px 16px;
+    }
+
+    nav ul{
+        height: 34px;
+    }
+}
+
+
+@media screen and (max-width: 280px) and (min-height: 653px){
+    .lines p{
+        font-size: 10px;
+    }   
+}
+
+@media screen and (max-width: 360px) and (min-height: 640px){
+    .lines p{
+        font-size: 15px;
+    }
+    
+    footer{
+        height: 4vh;
+        background-color: var(--main-bg-color);
+        color: azure;
+        font-family: 'Lato', sans-serif;
+    }
+    
+    footer p{
+        text-align: center;
+        padding: 2px;
+    }
+    
+}
+
+@media screen and (max-width: 411px){
+    .lines p{
+        font-size: 15px;
+    }
+}

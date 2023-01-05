@@ -1,0 +1,44 @@
+#commonstyle {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  border: 1px solid black;
+  font-size: 14px;
+}
+
+#submitButton {
+  background-color: var(--main-bg-color);
+  color: white;
+  padding: 13px 25px;
+  border: none;
+  cursor: pointer;
+}
+
+.container {
+  border-radius: 30px;
+  /* background-color: #f8d97a; */
+  width: 70%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.formContainer {
+  width: 80%;
+  margin-top: 25px;
+  /* background-color: #87ccb3; */
+}
+
+.contactus-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4%;
+}
+
